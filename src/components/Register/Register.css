@@ -1,0 +1,57 @@
+.register-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.register-card:hover {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+}
+
+.custom-input {
+  font-family: inherit;
+  color: #000000;
+  border-radius: 8px;
+  padding: 12px;
+  height: auto;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  transition: all 0.3s;
+}
+
+.custom-input:focus {
+  background-color: #fff;
+  border-color: var(--secondary-light);
+  box-shadow: 0 0 0 0.25rem rgba(77, 179, 112, 0.25);
+}
+
+.btn-register {
+  background-color: var(--secondary-light);
+  border-color: var(--secondary-light);
+  color: #000000;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.btn-register:hover,
+.btn-register:focus {
+  background-color: var(--secondary-dark);
+  border-color: var(--secondary-dark);
+  color: #000000;
+}
+
+.login-link {
+  color: var(--secondary-dark);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+  color: var(--secondary-light);
+} 

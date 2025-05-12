@@ -1,0 +1,169 @@
+.facial-recognition {
+  padding-bottom: 2rem;
+  color: #000000;
+}
+
+.section-title {
+  color: #000000;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.custom-tabs .nav-link {
+  color: #000000;
+}
+
+.custom-tabs .nav-link.active {
+  color: #000000;
+  font-weight: 600;
+  border-bottom-color: var(--accent-light);
+}
+
+.tab-content-card {
+  border-top-left-radius: 0;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-label {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.custom-input {
+  color: #000000;
+}
+
+.custom-input:focus {
+  border-color: var(--accent-light);
+  box-shadow: 0 0 0 0.25rem rgba(110, 93, 231, 0.25);
+}
+
+.text-muted {
+  color: #000000 !important;
+}
+
+.btn-accent {
+  background-color: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-accent:hover, .btn-accent:focus {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #000000;
+}
+
+.webcam-container {
+  padding: 1rem 0;
+}
+
+.webcam {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-capture {
+  background-color: var(--secondary-light);
+  border-color: var(--secondary-light);
+  margin-top: 1rem;
+  transition: all 0.3s;
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-capture:hover, .btn-capture:focus {
+  background-color: var(--secondary-dark);
+  border-color: var(--secondary-dark);
+  color: #000000;
+}
+
+.captured-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.captured-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 3px solid var(--accent-light);
+}
+
+.btn-recapture {
+  background-color: var(--gray-dark);
+  border-color: var(--gray-dark);
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-recapture:hover, .btn-recapture:focus {
+  background-color: var(--black);
+  border-color: var(--black);
+  color: #000000;
+}
+
+.btn-validate {
+  background-color: var(--accent-light);
+  border-color: var(--accent-light);
+  color: #000000;
+  font-weight: bold;
+}
+
+.btn-validate:hover, .btn-validate:focus {
+  background-color: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #000000;
+}
+
+.result-alert {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.success-alert {
+  border-left: 5px solid var(--secondary-light);
+  color: #000000;
+}
+
+.error-alert {
+  border-left: 5px solid #ff4040;
+  color: #000000;
+}
+
+.details-section {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.transaction-id {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.alert-heading {
+  color: #000000;
+}
+
+@media (max-width: 768px) {
+  .webcam, .captured-image {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+  
+  .action-buttons .col {
+    margin-bottom: 0.5rem;
+  }
+} 

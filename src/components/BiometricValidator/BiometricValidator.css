@@ -1,0 +1,124 @@
+.biometric-validator {
+  padding-bottom: 2rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-card {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+.form-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.form-label {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.custom-input {
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.custom-input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.text-muted {
+  color: #666666 !important;
+}
+
+.btn-biometric-submit {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  color: #000000;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.btn-biometric-submit:hover, 
+.btn-biometric-submit:focus {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+  outline: none;
+}
+
+.btn-biometric-submit:active {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-biometric-submit:disabled {
+  background-color: #cccccc;
+  border-color: #999999;
+  color: #666666;
+  opacity: 0.65;
+}
+
+.result-alert {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.success-alert {
+  border-left: 5px solid #000000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.error-alert {
+  border-left: 5px solid #ff4040;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.details-section {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #000000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.transaction-id {
+  font-family: monospace;
+  font-size: 0.9rem;
+  color: #000000;
+  margin-top: 1rem;
+}
+
+.alert-heading {
+  color: #000000;
+}
+
+*:focus {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+.form-control:focus {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #000000;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}

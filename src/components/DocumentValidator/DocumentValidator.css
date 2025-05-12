@@ -1,0 +1,94 @@
+.document-validator {
+  padding-bottom: 2rem;
+  color: #000000;
+}
+
+.section-title {
+  color: #000000;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.form-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form-label {
+  color: #000000 !important;
+  font-weight: 500;
+}
+
+.custom-input {
+  font-family: monospace;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+.custom-input:focus {
+  border-color: var(--primary-light);
+  box-shadow: 0 0 0 0.25rem rgba(78, 181, 205, 0.25);
+}
+
+.input-helper {
+  color: #000000 !important;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  font-style: italic;
+}
+
+.btn-document-submit {
+  border-color: var(--primary-light);
+  background-color: white;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s;
+}
+
+.btn-document-submit:hover, 
+.btn-document-submit:focus {
+  background-color: black;
+  border-color: var(--primary-dark);
+  color: white;
+}
+
+.btn-document-submit:disabled {
+  background-color: var(--gray-light);
+  border-color: var(--gray-dark);
+  opacity: 0.65;
+}
+
+.result-alert {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.success-alert {
+  border-left: 5px solid var(--secondary-light);
+  color: #000000;
+}
+
+.error-alert {
+  border-left: 5px solid #ff4040;
+  color: #000000;
+}
+
+.validation-details {
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  color: #000000;
+}
+
+.alert-heading {
+  color: #000000;
+} 

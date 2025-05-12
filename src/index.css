@@ -1,0 +1,53 @@
+:root {
+  --primary-light: #ffffff; 
+  --primary-dark: #000000;  
+  
+  --secondary-light: #a8a8a8;
+  --secondary-dark: #373737; 
+  
+  --accent-light: #6E5DE7;   
+  --accent-dark: #3B2E8D;    
+  
+  --gray-light: #D9D9D9;      
+  --gray-dark: #7C7C7C;     
+  
+  --black: #101010;           
+  
+  --background-color: #f8f9fa;
+  --text-color: #000000;     
+  --border-color: var(--gray-light);
+  --success: var(--secondary-light);
+  --danger: #ff4040;
+  --warning: #ffb100;
+  --info: var(--primary-light);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: #000000; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-primary-light { background-color: var(--primary-light); }
+.bg-primary-dark { background-color: var(--primary-dark); }
+.bg-secondary-light { background-color: var(--secondary-light); }
+.bg-secondary-dark { background-color: var(--secondary-dark); }
+.bg-accent-light { background-color: var(--accent-light); }
+.bg-accent-dark { background-color: var(--accent-dark); }
+
+.text-primary-light { color: var(--primary-light); }
+.text-primary-dark { color: var(--primary-dark); }
+.text-secondary-light { color: var(--secondary-light); }
+.text-secondary-dark { color: var(--secondary-dark); }
+.text-accent-light { color: var(--accent-light); }
+.text-accent-dark { color: var(--accent-dark); } 
